@@ -24,7 +24,7 @@ body {
     min-height: 100vh;
     font-family: 'Roboto-Regular';
     font-size: 14px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 main {

@@ -1,0 +1,54 @@
+@media (max-width: 700px) {
+
+    main {
+        width: 100%;
+        height: 100%;
+        border: solid red 4px;
+    }
+
+    .sign-up {
+        position: relative;
+        width: 100vh;
+        min-height: 100vh;
+        height: 100%;
+        flex-direction: column-reverse;
+        justify-content: start;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .form {
+        margin-right: 0;
+    }
+
+    .illustration img {
+        width: 100%;
+    }
+
+    .success-message {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        padding: 25px;
+    }
+
+    .success-message img {
+        height: 65px;
+    }
+
+    .success-message p {
+        font-size: 16px;
+    }
+
+    .dismiss-btn {
+        margin-top: 300px;
+    }
+
+    footer {
+        display: none;
+    }
+}
