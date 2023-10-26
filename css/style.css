@@ -24,7 +24,6 @@ body {
     min-height: 100vh;
     font-family: 'Roboto-Regular';
     font-size: 14px;
-    overflow-x: hidden;
 }
 
 main {
@@ -32,6 +31,8 @@ main {
     justify-content: center;
     align-items: center;
     z-index: 1;
+    position: relative;
+    overflow:hidden;
 }
 
 .sign-up {
